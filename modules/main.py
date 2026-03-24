@@ -574,10 +574,11 @@ async def txt_handler(bot: Client, m: Message):
             )
                 cc1 = (
     f"<b>🏷️ Iɴᴅᴇx ID :</b> {str(count).zfill(3)}\n\n"
-    f"<b>📑  Tɪᴛʟᴇ :</b> {name1} \n\n"
-    f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}.pdf</blockquote>"
-    f"\n\n<b>🎓  Uᴘʟᴏᴀᴅ Bʏ:</b> 【 <a href='https://t.me/{CR.replace('@','')}'>{CR}</a> 】\n\n" : {CR}</<pre><code>━━━━━✦𝗭𝗫✦━━━━━</code></pre>'
-            )
+    f"<b>📑 Tɪᴛʟᴇ :</b> {name1}.pdf\n\n"
+    f"<blockquote>📚 𝗕ᴀᴛᴄʜ : {b_name}</blockquote>\n\n"
+    f"<b>🎓 Uᴘʟᴏᴀᴅ Bʏ:</b> 【 <a href='https://t.me/{CR.replace('@','')}'>{CR}</a> 】\n\n"
+    f"<blockquote>━━━━━✦𝗭𝗫✦━━━━━</blockquote>"
+    )
                     
                 
                 if "drive" in url:
