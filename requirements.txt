@@ -4,3 +4,10 @@ requests
 flask
 gunicorn
 pytz
+yt-dlp
+cloudscraper
+m3u8
+aiohttp
+asyncio
+beautifulsoup4
+lxml
