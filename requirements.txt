@@ -8,6 +8,6 @@ yt-dlp
 cloudscraper
 m3u8
 aiohttp
-asyncio
+aiofiles
 beautifulsoup4
 lxml
