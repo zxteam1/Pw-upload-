@@ -148,8 +148,9 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Okay... Command janke kya karoge 💗.**Bot Made BY @Itz_Sumit**🔍\n\n"
-        "Progress:[🟩🟥🟩🟥🟩🟥🟩🟥🟩] 100%\n\n"
+        "ᴄʜᴇᴄᴋɪɴɢ ꜱᴛᴀᴛᴜꜱ ᴀᴄᴛɪᴠᴇ... ᴄᴏᴍᴍᴀɴᴅ ᴘᴛᴀ ʜᴀɪ ᴋɪ ɴʜɪ ᴊɪ 🙃\n"
+"ᴄᴏɴᴛᴀᴄᴛ @Itz_Sumit 🔍\n\n"
+"ᴘʀᴏɢʀᴇꜱꜱ:[🟩🟥🟩🟥🟩🟥🟩🟥🟩] 100%\n\n"
     )
 
 @bot.on_message(filters.command(["stop"]) )
