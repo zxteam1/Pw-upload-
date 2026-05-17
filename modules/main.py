@@ -584,9 +584,17 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:  
-        
-                cc = f'**🏷️ Iɴᴅᴇx ID: {str(count).zfill(3)}.\n\n🎞️Tɪᴛʟᴇ: {name1} {res}.mkv\n\n<pre><code>📚 𝗕ᴀᴛᴄʜ: {b_name}</code></pre>\n\n📥 Uᴘʟᴏᴀᴅ Bʏ: \n{CR}\n\n**━━━━━✦𝗭𝗫✦━━━━━**'
-                cc1 = f'**🏷️ Iɴᴅᴇx ID: {str(count).zfill(3)}.\n\n🎞️Tɪᴛʟᴇ: {name1} .pdf\n\n<pre><code>📚 𝗕ᴀᴛᴄʜ: {b_name}</code></pre>\n\n📥 Uᴘʟᴏᴀᴅ Bʏ: \n{CR}\n\n**━━━━━✦𝗭𝗫✦━━━━━**'
+        cc = f"""**➭ Index » {str(count).zfill(3)}
+➭ Title » {name1} {res}.mkv
+➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name}
+➭ Quality » {res}
+
+➭ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}\n\n<pre><code>━━━━━✦𝗭𝗫✦━━━━━</code></pre>**"""
+                cc1 = f"""**➭ Index » {str(count).zfill(3)}
+➭ Title » {name1}.pdf
+➭ 𝐁𝐚𝐭𝐜𝐡 » {b_name}
+
+➭ 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐃 𝐁𝐘 : {CR}\n\n<pre><code>━━━━━✦𝗭𝗫✦━━━━━</code></pre>**"""
                     
                 
                 if "drive" in url:
